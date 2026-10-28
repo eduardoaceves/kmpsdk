@@ -80,13 +80,13 @@ dependencies {
     androidRuntimeClasspath(libs.compose.uiTooling)
 }
 
-dependencies {
+/*dependencies {
     add(configurationName = "kspCommonMainMetadata", dependencyNotation = libs.androidx.room.compiler)
     add(configurationName = "kspIosArm64", dependencyNotation = libs.androidx.room.compiler)
     add(configurationName = "kspIosSimulatorArm64", dependencyNotation = libs.androidx.room.compiler)
     add(configurationName = "kspAndroid", dependencyNotation = libs.androidx.room.compiler)
 }
 
-/*room {
+room {
     schemaDirectory(path = "$projectDir/schemas")
 }*/

@@ -19,18 +19,18 @@ lifecycle-runtime-compose = "2.11.0"
 lib-androidx-navigation = "2.9.2"
 lib-ui-tooling = "1.11.1"
 lib-compose-material3 = "1.9.0"
-lib-junit = "4.13.2"
+#lib-junit = "4.13.2"
 lib-splashscreen = "1.2.0"
 lib-material = "1.14.0"
 lib-voyager = "2.2.21-1.10.3"
-lib-napier = "2.7.1"
+#lib-napier = "2.7.1"
 lib-koin = "4.2.2"
-lib-ktor = "3.5.2"
-lib-ktor-okhttp = "3.5.2"
-lib-ktor-darwin = "3.5.2"
-lib-ktor-auth = "3.5.2"
-lib-sqlite = "2.7.0"
-lib-okhttp-profiler = "1.1.1"
+#lib-ktor = "3.5.2"
+#lib-ktor-okhttp = "3.5.2"
+#lib-ktor-darwin = "3.5.2"
+#lib-ktor-auth = "3.5.2"
+#lib-sqlite = "2.7.0"
+#lib-okhttp-profiler = "1.1.1"
 lib-room = "2.8.4"
 lib-datastore = "1.2.1"
 # Plugins
@@ -41,11 +41,11 @@ lib-ksp = "2.3.10"
 lib-ktoast = "1.0.5"
 lib-koin-compiler = "1.2.1"
 # Test
-junit = "1.3.0"
-espressoCore = "3.7.0"
-kotlinStdlib = "2.4.10"
-runner = "1.7.0"
-core = "1.7.0"
+#junit = "1.3.0"
+#espressoCore = "3.7.0"
+#kotlinStdlib = "2.4.10"
+#runner = "1.7.0"
+#core = "1.7.0"
 
 [libraries]
 # AndroidX
@@ -75,7 +75,7 @@ voyager-transitions = { module = "cafe.adriel.voyager:voyager-transitions", vers
 voyager-tab-navigator = { module = "cafe.adriel.voyager:voyager-tab-navigator", version.ref = "lib-voyager" }
 
 # Logs
-napier = { module = "io.github.aakira:napier", version.ref = "lib-napier" }
+# napier = { module = "io.github.aakira:napier", version.ref = "lib-napier" }
 
 # Koin
 koin-compose-viewmodel = { module = "io.insert-koin:koin-compose-viewmodel", version.ref = "lib-koin" }
@@ -87,33 +87,33 @@ koin-android = { module = "io.insert-koin:koin-android", version.ref = "lib-koin
 k-toast = { module = "com.tarifchakder:ktoast", version.ref = "lib-ktoast" }
 
 # Ktor
-ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "lib-ktor" }
-ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "lib-ktor" }
-ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "lib-ktor" }
-ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "lib-ktor" }
-ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "lib-ktor-okhttp" }
-ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "lib-ktor-darwin" }
-ktor-auth = { module = "io.ktor:ktor-client-auth", version.ref = "lib-ktor-auth" }
+#ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "lib-ktor" }
+#ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "lib-ktor" }
+#ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "lib-ktor" }
+#ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "lib-ktor" }
+#ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "lib-ktor-okhttp" }
+#ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "lib-ktor-darwin" }
+#ktor-auth = { module = "io.ktor:ktor-client-auth", version.ref = "lib-ktor-auth" }
 
 # Room
-androidx-sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "lib-sqlite" }
-androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "lib-room" }
-androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "lib-room" }
+# androidx-sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "lib-sqlite" }
+# androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "lib-room" }
+#androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "lib-room" }
 
 # Okhttp
-okhttp-profiler = { module = "io.nerdythings:okhttp-profiler", version.ref = "lib-okhttp-profiler" }
+#okhttp-profiler = { module = "io.nerdythings:okhttp-profiler", version.ref = "lib-okhttp-profiler" }
 
 # Data store
 androidx-datastore = { module = "androidx.datastore:datastore-preferences", version.ref = "lib-datastore" }
 
 # Test
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "lib-kotlin" }
-junit = { module = "junit:junit", version.ref = "lib-junit" }
-androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
-androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
-kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlinStdlib" }
-androidx-runner = { group = "androidx.test", name = "runner", version.ref = "runner" }
-androidx-core = { group = "androidx.test", name = "core", version.ref = "core" }
+# junit = { module = "junit:junit", version.ref = "lib-junit" }
+# androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
+# androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+# kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlinStdlib" }
+# androidx-runner = { group = "androidx.test", name = "runner", version.ref = "runner" }
+# androidx-core = { group = "androidx.test", name = "core", version.ref = "core" }
 
 [bundles]
 sharedUI-commons-libs = [
@@ -139,13 +139,13 @@ sharedUI-commons-libs = [
     'koin-compose-viewmodel',
     'koin-annotations',
     # Ktor
-    'ktor-client-core',
-    'ktor-client-logging',
-    'ktor-client-content-negotiation',
-    'ktor-serialization-kotlinx-json',
-    'ktor-auth',
+    #'ktor-client-core',
+    #'ktor-client-logging',
+    #'ktor-client-content-negotiation',
+    #'ktor-serialization-kotlinx-json',
+    #'ktor-auth',
     # Okhttp
-    'okhttp-profiler',
+    #'okhttp-profiler',
     # Room
     #'androidx-room-runtime',
     #'androidx-sqlite-bundled',
@@ -158,15 +158,15 @@ sharedUI-android-libs = [
     'androidx-core-ktx',
     'androidx-appcompat',
     # Logs
-    'napier',
+    #'napier',
     # Koin Android
     'koin-android',
     # Ktor OkHttp
-    'ktor-client-okhttp',
+    #'ktor-client-okhttp',
 ]
 sharedUI-ios-libs = [
     # Ktor Darwin
-    'ktor-client-darwin',
+    #'ktor-client-darwin',
 ]
 sharedUI-commonsTest-libs = [
     'kotlin-test',
@@ -176,7 +176,7 @@ androidApp-libs = [
     'androidx-activity-compose',
     'androidx-splashscreen',
     # Logs
-    'napier',
+    #'napier',
     # Koin
     'koin-android',
 ]

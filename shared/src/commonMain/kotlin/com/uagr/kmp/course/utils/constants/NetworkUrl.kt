@@ -1,0 +1,22 @@
+/*
+ * NetworkUrl.kt
+ * Copyright (c) 2026. All rights reserved
+ */
+package com.uagr.kmp.course.utils.constants
+
+object NetworkUrl {
+    // Base url
+    const val BASE_URL = "https://fintrack-hitss.onrender.com"
+    // Endpoint
+    const val REFRESH_TOKENS_ENDPOINT = "/api/v1/auth/refresh"
+    const val LOGIN_ENDPOINT = "api/v1/auth/login"
+    const val GET_USER_INFO_ENDPOINT = "/api/v1/users/me"
+    const val REGISTER_ENDPOINT = "api/v1/auth/register"
+    const val GET_PACKAGES_ENDPOINT = "api/v1/auth/register"
+    const val GET_ACCOUNT_ENDPOINT = "api/v1/accounts"
+    const val GET_ACCOUNTS_ENDPOINT = "api/v1/accounts"
+    const val GET_SUMMARY_ENDPOINT = "api/v1/analytics/summary"
+    const val GET_TRANSACTIONS_ENDPOINT = "api/v1/transactions"
+    const val BUDGET_SUMMARY_ENDPOINT = "api/v1/budgets/summary"
+    const val BUDGETS_ENDPOINT = "api/v1/budgets"
+}

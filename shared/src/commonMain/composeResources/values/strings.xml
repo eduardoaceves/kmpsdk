@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Generics -->
+    <string name="example">Example</string>
+    <string name="empty_field">Campo requerido</string>
+    <string name="email_wrong_format">Formato incorrecto</string>
+    <string name="empty_value" />
+    <string name="success_title">Operación Exitosa</string>
+    <string name="Accept">Aceptar</string>
+    <string name="Cancel">Cancelar</string>
+
+    <!-- Months -->
+    <string name="JANUARY">Enero</string>
+    <string name="FEBRUARY">Febrero</string>
+    <string name="MARCH">Marzo</string>
+    <string name="APRIL">Abril</string>
+    <string name="MAY">Mayo</string>
+    <string name="JUNE">Junio</string>
+    <string name="JULY">Julio</string>
+    <string name="AUGUST">Agosto</string>
+    <string name="SEPTEMBER">Septiembre</string>
+    <string name="OCTOBER">Octubre</string>
+    <string name="NOVEMBER">Noviembre</string>
+    <string name="DECEMBER">Diciembre</string>
+
+    <!-- Error -->
+    <string name="error">Error</string>
+    <string name="please_try_again_later">Please try again later</string>
+    <string name="empty_accounts">Usuario sin cuentas</string>
+
+    <!-- Welcome -->
+    <string name="hello">¡Hello!</string>
+    <string name="explore_our_multiplatform_platform">Explore our multi platform</string>
+    <string name="go_to_login">Go to login</string>
+
+    <!-- Login -->
+    <string name="login_title">FinTrack</string>
+    <string name="login_description">Tus finanzas, claras incluso sin conexión.</string>
+    <string name="login_amount">$ --</string>
+    <string name="login_balance">Balance disponible.</string>
+    <string name="login_email">Correo</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="login_goto_home">Ir a Home</string>
+    <string name="login_create_account">Crear una cuenta</string>
+    <string name="login_email_example">example@gmail.com</string>
+    <string name="login_password_example">**********</string>
+    <string name="login_wrong_password_length">Longitud de contraseña incorrecta</string>
+    <string name="login_wrong_email_length">Longitud de correo incorrecta</string>
+
+    <!-- Register -->
+    <string name="register_title">FinTrack</string>
+    <string name="register_description">Tus finanzas, claras incluso sin conexión.</string>
+    <string name="register_name">Nombre</string>
+    <string name="register_email">Correo</string>
+    <string name="register_password">Contraseña</string>
+    <string name="register_confirm_password">Confirmar contraseña</string>
+    <string name="register_wrong_passwords">Contraseña no coinciden</string>
+    <string name="register_button">Registar usuario</string>
+    <string name="register_sucess">Registro exitoso</string>
+
+    <!-- Home -->
+    <string name="home_hello">Hola Eduardo Aceves Adan</string>
+    <string name="home_title">Tu panorama financiero</string>
+    <string name="home_total_balance">Balance total</string>
+    <string name="home_amount">$ --</string>
+    <string name="home_positive_amount">+$ --</string>
+    <string name="home_negative_amount">-$ --</string>
+    <string name="home_up_percentage">↑ 0%</string>
+    <string name="home_down_percentage">↓ 0%</string>
+    <string name="home_income">Ingresos</string>
+    <string name="home_bills">Gastos</string>
+    <string name="home_saving">Ahorro</string>
+    <string name="home_month">Este mes</string>
+    <string name="home_last_moves">Últimos movimientos</string>
+    <string name="home_see_all">Ver todos</string>
+
+    <!-- Transactions -->
+    <string name="transactions_title">Movimientos</string>
+    <string name="transactions_date">Septiembre 2026</string>
+    <string name="transactions_filter_all">Todos</string>
+    <string name="transactions_filter_expends">Gastos</string>
+    <string name="transactions_filter_incomes">Ingresos</string>
+    <string name="transactions_filter_searc">Buscar movimiento...</string>
+
+    <!-- Budget -->
+    <string name="budget_title">Presupuestos</string>
+    <string name="budget_month">Septiembre</string>
+    <string name="budget_month_budget">Presupuesto mensual</string>
+    <string name="budget_used">Usado</string>
+    <string name="budget_by_category">Por categoría</string>
+    <string name="budget_category_feed">Alimentacion</string>
+    <string name="budget_category_transport">Transporte</string>
+    <string name="budget_category_entertainment">Entretenimiento</string>
+    <string name="budget_category_services">Servicios</string>
+
+    <!-- Goals -->
+    <string name="goals_title">Metas de ahorro</string>
+    <string name="goals_description">Convierte objetivos en progreso visible</string>
+    <string name="goals_other_golas">Otras metas</string>
+    <string name="goals_new_goal">Nueva meta</string>
+    <string name="goals_close_session">Cerrar sesión</string>
+
+    <!-- Welcome -->
+    <string name="welcome">Welcome</string>
+
+    <!-- Packages -->
+    <string name="empty_packages">Empty packages</string>
+    <string name="active_packages">Active packages</string>
+
+</resources>

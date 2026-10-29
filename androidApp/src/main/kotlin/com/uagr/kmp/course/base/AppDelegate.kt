@@ -19,9 +19,5 @@ class AppDelegate : Application() {
                 androidContext(this@AppDelegate)
             },
         )
-        /*initKoin {
-            androidLogger(Level.DEBUG)
-            androidContext(this@AppDelegate)
-        }*/
     }
 }

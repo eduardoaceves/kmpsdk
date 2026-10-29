@@ -73,7 +73,7 @@ publishing {
         create<MavenPublication>("releaseAar") {
             groupId = "com.github.eduardoaceves"
             artifactId = "kmpsdk"
-            version = "1.12"
+            version = "1.13"
         }
     }
 }

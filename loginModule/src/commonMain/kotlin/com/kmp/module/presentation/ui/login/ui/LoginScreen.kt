@@ -47,8 +47,6 @@ fun LoginScreen(
     LaunchedEffect(Unit) {
         viewModel.setData(user = user, password = password)
     }
-
-    
     
     SafeScreenContainer(
         modifier = Modifier.background(color = AppTheme.colors.backgrounds.canvas)

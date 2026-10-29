@@ -23,11 +23,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
+import com.github.eduardoaceves.shared.generated.resources.Res
+import com.github.eduardoaceves.shared.generated.resources.ic_example
 import com.uagr.kmp.course.presentation.component.container.SafeScreenContainerTest
 import com.uagr.kmp.course.presentation.theme.AppTheme
 import com.uagr.kmp.course.presentation.theme.Dimens
-import course.shared.generated.resources.Res
-import course.shared.generated.resources.ic_example
 import org.jetbrains.compose.resources.painterResource
 
 @Composable

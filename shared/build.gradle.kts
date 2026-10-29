@@ -11,7 +11,10 @@ plugins {
     alias(libs.plugins.kotlinx.serialization)
     alias(libs.plugins.ksp)
     alias(libs.plugins.koinCompiler)
+    `maven-publish`
 }
+
+group = "com.github.eduardoaceves"
 
 kotlin {
     
@@ -78,6 +81,17 @@ kotlin {
 
 dependencies {
     androidRuntimeClasspath(libs.compose.uiTooling)
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            //from (components["shared"])
+            //groupId = "com.github.eduardoaceves"
+            //artifactId = "kmpsdk"
+            //version = "1.2"
+        }
+    }
 }
 
 /*dependencies {

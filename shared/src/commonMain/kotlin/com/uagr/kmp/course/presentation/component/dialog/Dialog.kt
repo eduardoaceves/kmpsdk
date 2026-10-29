@@ -13,14 +13,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import com.github.eduardoaceves.shared.generated.resources.Res
+import com.github.eduardoaceves.shared.generated.resources.example
 import com.uagr.kmp.course.domain.model.base.ErrorDialogModel
 import com.uagr.kmp.course.presentation.component.button.TextButton
 import com.uagr.kmp.course.presentation.component.text.TextNormalBold
 import com.uagr.kmp.course.presentation.component.text.TextSmall
 import com.uagr.kmp.course.presentation.theme.AppTheme
 import com.uagr.kmp.course.presentation.theme.Dimens
-import course.shared.generated.resources.Res
-import course.shared.generated.resources.example
 import org.jetbrains.compose.resources.stringResource
 
 @Composable

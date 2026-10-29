@@ -7,15 +7,15 @@ package com.uagr.kmp.course.presentation.ui.login.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.github.eduardoaceves.shared.generated.resources.Accept
+import com.github.eduardoaceves.shared.generated.resources.Res
+import com.github.eduardoaceves.shared.generated.resources.email_wrong_format
+import com.github.eduardoaceves.shared.generated.resources.empty_field
+import com.github.eduardoaceves.shared.generated.resources.error
+import com.github.eduardoaceves.shared.generated.resources.please_try_again_later
 import com.uagr.kmp.course.domain.model.base.ErrorDialogModel
 import com.uagr.kmp.course.domain.usecase.login.LoginValidationResult
 import com.uagr.kmp.course.domain.usecase.login.ValidateLoginFormUseCase
-import course.shared.generated.resources.Accept
-import course.shared.generated.resources.Res
-import course.shared.generated.resources.email_wrong_format
-import course.shared.generated.resources.empty_field
-import course.shared.generated.resources.error
-import course.shared.generated.resources.please_try_again_later
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

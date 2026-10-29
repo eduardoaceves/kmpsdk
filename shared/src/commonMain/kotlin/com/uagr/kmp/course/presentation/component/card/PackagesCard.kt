@@ -19,6 +19,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
+import com.github.eduardoaceves.shared.generated.resources.Res
+import com.github.eduardoaceves.shared.generated.resources.ic_info
 import com.uagr.kmp.course.presentation.component.button.CircularIconButton
 import com.uagr.kmp.course.presentation.component.button.CustomButton
 import com.uagr.kmp.course.presentation.component.container.SafeScreenContainerTest
@@ -28,8 +30,6 @@ import com.uagr.kmp.course.presentation.component.text.TextSmall
 import com.uagr.kmp.course.presentation.component.text.TextSmallExtra
 import com.uagr.kmp.course.presentation.theme.AppTheme
 import com.uagr.kmp.course.presentation.theme.Dimens
-import course.shared.generated.resources.Res
-import course.shared.generated.resources.ic_info
 import org.jetbrains.compose.resources.painterResource
 
 @Composable

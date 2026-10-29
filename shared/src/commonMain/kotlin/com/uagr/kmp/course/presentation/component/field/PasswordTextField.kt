@@ -33,19 +33,17 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
+import com.github.eduardoaceves.shared.generated.resources.Res
+import com.github.eduardoaceves.shared.generated.resources.Res.string
+import com.github.eduardoaceves.shared.generated.resources.example
+import com.github.eduardoaceves.shared.generated.resources.ic_visibility_off
+import com.github.eduardoaceves.shared.generated.resources.ic_visibility_on
 import com.uagr.kmp.course.presentation.component.container.SafeScreenContainerTest
 import com.uagr.kmp.course.presentation.component.text.TextMedium
 import com.uagr.kmp.course.presentation.component.text.TextMediumBold
 import com.uagr.kmp.course.presentation.component.text.TextSmallExtra
 import com.uagr.kmp.course.presentation.theme.AppTheme
 import com.uagr.kmp.course.presentation.theme.Dimens
-import course.shared.generated.resources.Res
-import course.shared.generated.resources.example
-import course.shared.generated.resources.ic_example
-import course.shared.generated.resources.ic_search
-import course.shared.generated.resources.ic_visibility_off
-import course.shared.generated.resources.ic_visibility_on
-import course.shared.generated.resources.transactions_filter_searc
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
@@ -157,9 +155,9 @@ private fun TextFieldPreview() {
                     passwordVisible = false,
                     onPasswordVisibleChange = {},
                     labelColor = Color.Black,
-                    label = stringResource(Res.string.example),
+                    label = stringResource(string.example),
                     placeholderColor = Color.Black,
-                    placeholder = stringResource(Res.string.example),
+                    placeholder = stringResource(string.example),
                     trailingIconActive = Res.drawable.ic_visibility_on,
                     trailingIconInActive = Res.drawable.ic_visibility_off,
                     keyboardType = KeyboardType.Password,

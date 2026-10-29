@@ -7,6 +7,7 @@ package com.kmp.module.presentation.ui.login.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
@@ -25,6 +26,8 @@ import org.koin.compose.viewmodel.koinViewModel
 @Composable
 fun LoginScreen(
     viewModel: LoginViewModel = koinViewModel(),
+    user : String = "",
+    password: String = "",
     onLoginSuccess: () -> Unit = {},
     onCreateAccountClick: () -> Unit = {},
     onHomeClick: () -> Unit = {},
@@ -40,7 +43,13 @@ fun LoginScreen(
             }
         }
     }
+    
+    LaunchedEffect(Unit) {
+        viewModel.setData(user = user, password = password)
+    }
 
+    
+    
     SafeScreenContainer(
         modifier = Modifier.background(color = AppTheme.colors.backgrounds.canvas)
     ) {

@@ -11,9 +11,15 @@ import com.kmp.module.presentation.theme.AppTheme
 import com.kmp.module.presentation.ui.login.navigation.LoginNavigation
 
 @Composable
-fun NavigationController() {
+fun NavigationController(
+    user : String = "",
+    password: String = "",
+) {
     AppTheme {
-        Navigator(screen = LoginNavigation) { navigator ->
+        Navigator(screen = LoginNavigation(
+            user = user,
+            password = password
+        )) { navigator ->
             SlideTransition(navigator)
         }
     }

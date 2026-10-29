@@ -32,18 +32,16 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.TextUnit
-import androidx.compose.ui.unit.dp
-import com.github.eduardoaceves.loginmodule.generated.resources.Res
-import com.github.eduardoaceves.loginmodule.generated.resources.Res.string
-import com.github.eduardoaceves.loginmodule.generated.resources.example
-import com.github.eduardoaceves.loginmodule.generated.resources.ic_visibility_off
-import com.github.eduardoaceves.loginmodule.generated.resources.ic_visibility_on
 import com.kmp.module.presentation.component.container.SafeScreenContainerTest
 import com.kmp.module.presentation.component.text.TextMedium
 import com.kmp.module.presentation.component.text.TextMediumBold
 import com.kmp.module.presentation.component.text.TextSmallExtra
 import com.kmp.module.presentation.theme.AppTheme
 import com.kmp.module.presentation.theme.Dimens
+import course.loginmodule.generated.resources.Res
+import course.loginmodule.generated.resources.example
+import course.loginmodule.generated.resources.ic_visibility_off
+import course.loginmodule.generated.resources.ic_visibility_on
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
@@ -155,9 +153,9 @@ private fun TextFieldPreview() {
                     passwordVisible = false,
                     onPasswordVisibleChange = {},
                     labelColor = Color.Black,
-                    label = stringResource(string.example),
+                    label = stringResource(Res.string.example),
                     placeholderColor = Color.Black,
-                    placeholder = stringResource(string.example),
+                    placeholder = stringResource(Res.string.example),
                     trailingIconActive = Res.drawable.ic_visibility_on,
                     trailingIconInActive = Res.drawable.ic_visibility_off,
                     keyboardType = KeyboardType.Password,

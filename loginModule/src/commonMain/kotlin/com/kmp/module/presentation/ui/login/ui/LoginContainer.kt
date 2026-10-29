@@ -27,20 +27,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import com.github.eduardoaceves.loginmodule.generated.resources.Res
-import com.github.eduardoaceves.loginmodule.generated.resources.ic_mini_chart_2
-import com.github.eduardoaceves.loginmodule.generated.resources.ic_visibility_off
-import com.github.eduardoaceves.loginmodule.generated.resources.ic_visibility_on
-import com.github.eduardoaceves.loginmodule.generated.resources.login_amount
-import com.github.eduardoaceves.loginmodule.generated.resources.login_balance
-import com.github.eduardoaceves.loginmodule.generated.resources.login_button
-import com.github.eduardoaceves.loginmodule.generated.resources.login_create_account
-import com.github.eduardoaceves.loginmodule.generated.resources.login_description
-import com.github.eduardoaceves.loginmodule.generated.resources.login_email
-import com.github.eduardoaceves.loginmodule.generated.resources.login_email_example
-import com.github.eduardoaceves.loginmodule.generated.resources.login_password
-import com.github.eduardoaceves.loginmodule.generated.resources.login_password_example
-import com.github.eduardoaceves.loginmodule.generated.resources.login_title
+
 import com.kmp.module.presentation.component.button.CustomButton
 import com.kmp.module.presentation.component.button.TextButton
 import com.kmp.module.presentation.component.card.SimpleCard
@@ -52,6 +39,20 @@ import com.kmp.module.presentation.component.text.TextNormal
 import com.kmp.module.presentation.component.text.TextNormalBold
 import com.kmp.module.presentation.theme.AppTheme
 import com.kmp.module.presentation.theme.Dimens
+import course.loginmodule.generated.resources.Res
+import course.loginmodule.generated.resources.ic_mini_chart_2
+import course.loginmodule.generated.resources.ic_visibility_off
+import course.loginmodule.generated.resources.ic_visibility_on
+import course.loginmodule.generated.resources.login_amount
+import course.loginmodule.generated.resources.login_balance
+import course.loginmodule.generated.resources.login_button
+import course.loginmodule.generated.resources.login_create_account
+import course.loginmodule.generated.resources.login_description
+import course.loginmodule.generated.resources.login_email
+import course.loginmodule.generated.resources.login_email_example
+import course.loginmodule.generated.resources.login_password
+import course.loginmodule.generated.resources.login_password_example
+import course.loginmodule.generated.resources.login_title
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 

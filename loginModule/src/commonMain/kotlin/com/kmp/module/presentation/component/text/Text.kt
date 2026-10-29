@@ -22,9 +22,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.withLink
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.TextUnit
-import com.github.eduardoaceves.loginmodule.generated.resources.Res
-import com.github.eduardoaceves.loginmodule.generated.resources.example
 import com.kmp.module.presentation.theme.Dimens
+import course.loginmodule.generated.resources.Res
+import course.loginmodule.generated.resources.example
 import org.jetbrains.compose.resources.stringResource
 
 /**

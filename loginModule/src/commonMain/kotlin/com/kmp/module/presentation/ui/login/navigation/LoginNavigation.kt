@@ -15,11 +15,16 @@ import com.kmp.module.presentation.ui.login.ui.LoginScreen
 import com.kmp.module.presentation.ui.packages.navigation.PackagesNavigation
 import com.kmp.module.presentation.ui.register.navigation.RegisterNavigation*/
 
-data object LoginNavigation : Screen  {
+data class LoginNavigation(
+    val user : String = "",
+    val password: String = "",
+) : Screen  {
     @Composable
     override fun Content() {
         val navigator = LocalNavigator.currentOrThrow
         LoginScreen(
+            user = user,
+            password = password,
             onCreateAccountClick = {
                 //navigator.push(item = RegisterNavigation)
             },

@@ -36,7 +36,7 @@ android {
 
 dependencies {
     // Modules
-    //implementation(project(projectPath = ":loginModule"))
+    implementation(project(projectPath = ":loginModule"))
     // Libs
     implementation(libs.bundles.androidApp.libs)
     // Debug

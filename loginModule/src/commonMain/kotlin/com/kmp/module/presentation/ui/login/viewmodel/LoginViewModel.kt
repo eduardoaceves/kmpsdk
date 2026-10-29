@@ -7,15 +7,15 @@ package com.kmp.module.presentation.ui.login.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.github.eduardoaceves.loginmodule.generated.resources.Accept
-import com.github.eduardoaceves.loginmodule.generated.resources.Res
-import com.github.eduardoaceves.loginmodule.generated.resources.email_wrong_format
-import com.github.eduardoaceves.loginmodule.generated.resources.empty_field
-import com.github.eduardoaceves.loginmodule.generated.resources.error
-import com.github.eduardoaceves.loginmodule.generated.resources.please_try_again_later
 import com.kmp.module.domain.model.base.ErrorDialogModel
 import com.kmp.module.domain.usecase.login.LoginValidationResult
 import com.kmp.module.domain.usecase.login.ValidateLoginFormUseCase
+import course.loginmodule.generated.resources.Accept
+import course.loginmodule.generated.resources.Res
+import course.loginmodule.generated.resources.email_wrong_format
+import course.loginmodule.generated.resources.empty_field
+import course.loginmodule.generated.resources.error
+import course.loginmodule.generated.resources.please_try_again_later
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -40,6 +40,13 @@ class LoginViewModel(
             email = "fintrack.postman.1790610089152@example.com",
             password = "Postman123!"
         ) }*/
+    }
+    
+    fun setData(user : String, password : String){
+        _loginUiState.update { state -> state.copy(
+            email = user,
+            password = password
+        ) }
     }
     
     fun onTextChanged(

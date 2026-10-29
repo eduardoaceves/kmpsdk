@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
-
 // build.gradle - shared
 // Copyright (c) 2026. All rights reserved
 plugins {
@@ -29,17 +27,6 @@ kotlin {
             baseName = "Shared"
             isStatic = false
         }
-    }
-    
-    @OptIn(ExperimentalWasmDsl::class)
-    wasmJs {
-        outputModuleName = "shared"
-        browser{
-            commonWebpackConfig {
-                outputFileName = "shared.js"
-            }
-        }
-        binaries.executable()
     }
     
     android {

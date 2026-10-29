@@ -1,6 +1,7 @@
 // build.gradle - shared
 // Copyright (c) 2026. All rights reserved
 plugins {
+    `maven-publish`
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidMultiplatformLibrary)
     alias(libs.plugins.composeMultiplatform)
@@ -9,10 +10,7 @@ plugins {
     alias(libs.plugins.kotlinx.serialization)
     alias(libs.plugins.ksp)
     alias(libs.plugins.koinCompiler)
-    `maven-publish`
 }
-
-group = "com.github.eduardoaceves"
 
 kotlin {
     
@@ -72,11 +70,10 @@ dependencies {
 
 publishing {
     publications {
-        create<MavenPublication>("release") {
-            //from (components["shared"])
-            //groupId = "com.github.eduardoaceves"
-            //artifactId = "kmpsdk"
-            //version = "1.2"
+        create<MavenPublication>("releaseAar") {
+            groupId = "com.github.eduardoaceves"
+            artifactId = "kmpsdk"
+            version = "1.0"
         }
     }
 }

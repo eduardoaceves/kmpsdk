@@ -17,18 +17,19 @@ import com.kmp.module.presentation.controller.NavigationController
 class MainActivity : FragmentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        val splashScreen = installSplashScreen()
+        super.onCreate(savedInstanceState)
+        /*val splashScreen = installSplashScreen()
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         splashScreen.setKeepOnScreenCondition { false }
         setContent {
             NavigationController()
-        }
+        }*/
     }
 }
 
-@Preview
+/*@Preview
 @Composable
 fun AppAndroidPreview() {
     NavigationController()
-}
+}*/

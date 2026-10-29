@@ -12,7 +12,7 @@ kotlin {
 
 android {
 
-    namespace = "com.uagr.kmp.course.android"
+    namespace = "com.kmp.module.android"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
@@ -36,7 +36,7 @@ android {
 
 dependencies {
     // Modules
-    implementation(project(projectPath = ":shared"))
+    implementation(project(projectPath = ":loginModule"))
     // Libs
     implementation(libs.bundles.androidApp.libs)
     // Debug

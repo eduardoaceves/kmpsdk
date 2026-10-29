@@ -19,7 +19,7 @@ kotlin {
     jvmToolchain(jdkVersion = 21)
     
     // Config for devices ios
-    listOf(
+    /*listOf(
         iosArm64(),
         iosSimulatorArm64(),
     ).forEach { iosTarget ->
@@ -27,7 +27,7 @@ kotlin {
             baseName = "Shared"
             isStatic = false
         }
-    }
+    }*/
     
     android {
         namespace = "com.uagr.kmp.course.shared"

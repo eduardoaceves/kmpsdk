@@ -38,10 +38,10 @@ import com.kmp.module.presentation.component.text.TextMediumBold
 import com.kmp.module.presentation.component.text.TextSmallExtra
 import com.kmp.module.presentation.theme.AppTheme
 import com.kmp.module.presentation.theme.Dimens
-import course.loginmodule.generated.resources.Res
-import course.loginmodule.generated.resources.example
-import course.loginmodule.generated.resources.ic_visibility_off
-import course.loginmodule.generated.resources.ic_visibility_on
+import com.github.eduardoaceves.loginmodule.generated.resources.Res
+import com.github.eduardoaceves.loginmodule.generated.resources.example
+import com.github.eduardoaceves.loginmodule.generated.resources.ic_visibility_off
+import com.github.eduardoaceves.loginmodule.generated.resources.ic_visibility_on
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource

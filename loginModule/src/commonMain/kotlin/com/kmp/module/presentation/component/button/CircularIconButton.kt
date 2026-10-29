@@ -26,8 +26,8 @@ import androidx.compose.ui.unit.Dp
 import com.kmp.module.presentation.component.container.SafeScreenContainerTest
 import com.kmp.module.presentation.theme.AppTheme
 import com.kmp.module.presentation.theme.Dimens
-import course.loginmodule.generated.resources.Res
-import course.loginmodule.generated.resources.ic_example
+import com.github.eduardoaceves.loginmodule.generated.resources.Res
+import com.github.eduardoaceves.loginmodule.generated.resources.ic_example
 import org.jetbrains.compose.resources.painterResource
 
 @Composable
